@@ -47,17 +47,6 @@ document.querySelectorAll('.view-btn').forEach(btn => {
   });
 });
 
-
-document.querySelectorAll('.view-btn').forEach(btn => {
-  btn.addEventListener('click', () => {
-    const projectKey = btn.dataset.project;
-    const data = projectData[projectKey];
-    modalTitle.textContent = data.title;
-    modalDesc.textContent = data.description;
-    modal.style.display = "block";
-  });
-});
-
 closeBtn.addEventListener('click', () => {
   modal.style.display = "none";
 });
