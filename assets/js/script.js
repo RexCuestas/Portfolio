@@ -23,20 +23,23 @@ const closeBtn = document.querySelector('.close-btn');
 const modalImage = document.getElementById('modal-image');
 
 const projectData = {
-  portfolio: {
+   portfolio: {
     title: "Portfolio Website",
     description: "A personal portfolio site showcasing my profile, projects, and skills using HTML, CSS, and JavaScript.",
-    image: "assets/images/portfolio-frontpage.png" 
+    image: "assets/images/portfolio-frontpage.png", 
+    demo: "index.html"
   },
   todo: {
     title: "Todo App",
     description: "A simple todo list app built with JavaScript and local storage to save tasks.",
-    image: "assets/images/todo-app.png"
+    image: "assets/images/todo-app.png",
+    demo: "../assets/projects/todo-list.htm"
   },
   calendar: {
-  title: "Calendar App",
-  description: "A simple calendar that shows upcoming holidays with visuals.",
-  image: "assets/images/calendar-img.png"
+    title: "Calendar App",
+    description: "A simple calendar that shows upcoming holidays with visuals.",
+    image: "assets/images/calendar-img.png",
+    demo: "assets/projects/CALENDAR_CUESTAS.htm"
   },
 };
 
