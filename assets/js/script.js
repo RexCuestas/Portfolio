@@ -81,3 +81,17 @@ contactForm.addEventListener("submit", function (e) {
     contactForm.reset();
   }
 });
+const demoLink = document.getElementById("demo-link");
+
+document.querySelectorAll('.view-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const projectKey = btn.dataset.project;
+    const data = projectData[projectKey];
+
+    modalTitle.textContent = data.title;
+    modalDesc.textContent = data.description;
+    modalImage.src = data.image;
+    demoLink.href = data.demo;
+    modal.style.display = "block";
+  });
+});
