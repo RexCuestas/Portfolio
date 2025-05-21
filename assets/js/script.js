@@ -33,13 +33,13 @@ const projectData = {
     title: "Todo App",
     description: "A simple todo list app built with JavaScript and local storage to save tasks.",
     image: "assets/images/todo-app.png",
-    demo: "..projects/todo-list.htm"
+    demo: "assets/projects/todo-list.htm"
   },
   calendar: {
     title: "Calendar App",
     description: "A simple calendar that shows upcoming holidays with visuals.",
     image: "assets/images/calendar-img.png",
-    demo: "../projects/CALENDAR_CUESTAS.htm"
+    demo: "assets/projects/CALENDAR_CUESTAS.htm"
   },
 };
 
