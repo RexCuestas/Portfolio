@@ -39,7 +39,7 @@ const projectData = {
     title: "Calendar App",
     description: "A simple calendar that shows upcoming holidays with visuals.",
     image: "assets/images/calendar-img.png",
-    demo: "assets/projects/CALENDAR_CUESTAS.htm"
+    demo: "assets/projects/CALENDAR_CUESTAS.HTM"
   },
 };
 
